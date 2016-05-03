@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bangazon
 {
-    class Program
+    class Customer
     {
-        static void Main(string[] args)
-        {
-            List<Product> lineItems = new List<Product>();
-
-        }
     }
 }
