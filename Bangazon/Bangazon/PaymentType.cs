@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Bangazon
 {
-    class PaymentType
+    public class PaymentType
     {
+        public int idPaymentOption { get; set; }
+        public int idCustomer { get; set; }
+        public string name { get; set; }
+        public string accountNumber { get; set; }
     }
 }
