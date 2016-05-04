@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Bangazon
 {
-    class Customer
+    public class Customer
     {
+        public int idCustomer { get; set; }
+        public string name { get; set; }
+        public string streetAddress { get; set; }
+        public string city { get; set; }
+        public string state { get; set; }
+        public string postalCode { get; set; }
+        public string phoneNumber { get; set; }
     }
 }

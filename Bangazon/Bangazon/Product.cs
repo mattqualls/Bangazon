@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bangazon
 {
-    class Product
+    public class Product
     {
         public int idProduct { get; set; }
         public int idProductType { get; set; }
