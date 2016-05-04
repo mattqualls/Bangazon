@@ -8,5 +8,10 @@ namespace Bangazon
 {
     class Product
     {
+        public int idProduct { get; set; }
+        public int idProductType { get; set; }
+        public string name { get; set; }
+        public float price { get; set; }
+        public string description { get; set; }
     }
 }
