@@ -59,9 +59,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Customer.cs" />
-    <Compile Include="InvoiceDbInfo.cs" />
+    <Compile Include="Menu.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="PaymentType.cs" />
+    <Compile Include="PopularProduct.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
