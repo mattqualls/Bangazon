@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bangazon
 {
-    public class InvoiceDbInfo
+    public class PopularProduct
     {
     }
 }

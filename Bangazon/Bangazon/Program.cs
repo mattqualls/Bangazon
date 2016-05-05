@@ -17,7 +17,6 @@ namespace Bangazon
 
             while (!quitBangazon)
             {
-
                 Console.WriteLine("\n******************************************************");
                 Console.WriteLine("** Welcome to Bangazon Command Line Ordering System **");
                 Console.WriteLine("******************************************************\n");
