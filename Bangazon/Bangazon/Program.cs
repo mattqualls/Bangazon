@@ -10,7 +10,7 @@ namespace Bangazon
     {
         static void Main(string[] args)
         {
-            Menu menu = new Menu();
+
             List<Product> orderProducts = new List<Product>();
             int menuOption;
             string outputStr = "";
@@ -18,7 +18,7 @@ namespace Bangazon
 
             while (!quitBangazon)
             {
-                outputStr = menu.displayMainMenu(outputStr);
+                outputStr = Menu.displayMainMenu(outputStr);
                 Int32.TryParse(Console.ReadLine(), out menuOption);
 
                 //Console.WriteLine("\n******************************************************");
@@ -36,19 +36,19 @@ namespace Bangazon
                 switch (menuOption)
                 {
                     case 1: //create an account
-                        menu.addCustomer();
+                        Menu.addCustomer();
                         break;
                     case 2: //create a payment option
-                        menu.addPaymentOption();
+                        Menu.addPaymentOption();
                         break;
                     case 3: //order a product
-                        outputStr = menu.orderProduct(orderProducts);
+                        orderProducts = Menu.orderProduct(orderProducts);
                         break;
                     case 4: //complete an order
-                        outputStr = menu.completeOrder(orderProducts);
+                        outputStr = Menu.completeOrder(orderProducts);
                         break;
                     case 5: //product popularity
-                        menu.popularProducts();
+                        Menu.popularProducts();
                         Console.Read();
                         break;
                     case 6: //Leave Bangazon!!
